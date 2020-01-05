@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07194b6a-1fe3-409a-86cc-fee1c946b14b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/junit/StudyStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/junit/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/junit/Study.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Vy9hq2OUSj8TPYXoM8ltcMpioy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -44,6 +50,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mesung.junit" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudyTest">
+  <component name="RunManager" selected="JUnit.StudyTest.create_new_time">
     <configuration name="StudyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prejavatest" />
       <extension name="coverage">
@@ -90,8 +99,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyTest.create_new" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prejavatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mesung.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mesung.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
+      <option name="METHOD_NAME" value="create_new" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTest.create_new_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prejavatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mesung.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mesung.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
+      <option name="METHOD_NAME" value="create_new_study" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTest.create_new_time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prejavatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mesung.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mesung.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
+      <option name="METHOD_NAME" value="create_new_time" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudyTest.create_new_time" />
+        <item itemvalue="JUnit.StudyTest.create_new" />
+        <item itemvalue="JUnit.StudyTest.create_new_study" />
         <item itemvalue="JUnit.StudyTest" />
         <item itemvalue="JUnit.StudyTest.create" />
       </list>
