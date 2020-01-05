@@ -47,7 +47,7 @@ void create1_new_study_again() {
 }
 ```
 
-![1578218403731](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1578218403731.png)
+![1578218403731](https://user-images.githubusercontent.com/40616436/71778225-46840300-2fee-11ea-96ff-c2df676da5ff.png)
 
 **@DisplayNameGeneration 보다 우선 순위가 높다.**
 
