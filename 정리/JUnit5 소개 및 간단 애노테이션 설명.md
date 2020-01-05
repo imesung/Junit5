@@ -27,13 +27,6 @@
 class StudyTest {
 
     @Test
-    void create() {
-        Study study = new Study();
-        assertNotNull(study);
-        System.out.println("create");
-    }
-
-    @Test
     void create1() {
         System.out.println("create1");
     }
@@ -73,6 +66,10 @@ class StudyTest {
 
 }
 ```
+
+**실행 결과**
+
+![image](https://user-images.githubusercontent.com/40616436/71777996-2737a680-2feb-11ea-80da-34c08dfac7e4.png)
 
 
 
