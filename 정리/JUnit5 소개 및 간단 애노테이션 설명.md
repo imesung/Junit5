@@ -32,7 +32,6 @@ class StudyTest {
     }
 
     @Test
-    @Disabled
     //테스트 하는 것중 테스트 하지 않은 것을 빼려고 할 때 사용
     void create2() {
         System.out.println("create2");
@@ -70,6 +69,24 @@ class StudyTest {
 **실행 결과**
 
 ![image](https://user-images.githubusercontent.com/40616436/71777996-2737a680-2feb-11ea-80da-34c08dfac7e4.png)
+
+
+
+**Disabled 사용 시**
+
+해당 메소드는 출력이 되지 않고 아래 사진과 같이 테스트 결과 창에 해당 메소드가 Disabled 되었다는 표시가 나타난다.
+
+```java
+@Test
+    //테스트 하는 것중 테스트 하지 않은 것을 빼려고 할 때 사용
+    void create2() {
+        System.out.println("create2");
+    }
+```
+
+**결과**
+
+![image](https://user-images.githubusercontent.com/40616436/71778045-dbd1c800-2feb-11ea-983e-8013d7644577.png)
 
 
 

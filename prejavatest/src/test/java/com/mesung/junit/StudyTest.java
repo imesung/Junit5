@@ -20,6 +20,7 @@ class StudyTest {
     }
 
     @Test
+    @Disabled
     void create2() {
         System.out.println("create2");
     }
