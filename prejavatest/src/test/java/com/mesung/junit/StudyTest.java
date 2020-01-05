@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class StudyTest {
 
     @Test
+    @DisplayName("테스트 스터디 하기 \uD83D\uDE31")
     void create_new_study() {
         Study study = new Study();
         assertNotNull(study);
@@ -15,14 +16,9 @@ class StudyTest {
     }
 
     @Test
+    @DisplayName("테스트 스터디 하기 :)")
     void create1_new_study_again() {
         System.out.println("create1");
-    }
-
-    @Test
-    @Disabled
-    void create2() {
-        System.out.println("create2");
     }
 
     @BeforeAll
