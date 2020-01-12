@@ -1,16 +1,78 @@
 package com.mesung.junit;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.*;
 import org.junit.jupiter.api.function.Executable;
 
 import java.time.Duration;
 import java.util.function.Supplier;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class StudyTest {
 
+    @Test
+    @DisplayName("스터디 만들기")
+    @EnabledIfEnvironmentVariable(named = "TEST_ENV", matches = "local")
+    void create_method6() {
+
+    }
+
+    @Test
+    @DisplayName("스터디 만들기")
+    @EnabledIfEnvironmentVariable(named = "TEST_ENV", matches = "test")
+    void create_method5() {
+
+    }
+
+    @Test
+    @DisplayName("스터디 만들기")
+    @EnabledOnJre({JRE.JAVA_8, JRE.JAVA_9, JRE.JAVA_10})
+    void create_method4() {
+
+    }
+
+    @Test
+    @DisplayName("스터디 만들기")
+    @DisabledOnJre({JRE.JAVA_8, JRE.JAVA_9, JRE.JAVA_10})
+    void create_method3() {
+
+    }
+
+    @Test
+    @DisplayName("스터디 만들기")
+    @EnabledOnOs({OS.MAC, OS.LINUX})
+    void create_method2() {
+
+    }
+
+    @Test
+    @DisplayName("스터디 만들기")
+    @DisabledOnOs({OS.MAC, OS.LINUX})
+    void create_method1() {
+
+    }
+
+    @Test
+    @DisplayName("스터디 만들기")
+    void create_new_method() {
+        String test_env = System.getenv("TEST_ENV");
+        System.out.println(test_env);
+        assumeTrue("LOCAL".equalsIgnoreCase(test_env));
+
+        assumingThat("LOCAL".equalsIgnoreCase(test_env), () -> {
+            System.out.println("LOCAL 환경에서 테스트");
+        });
+
+        assumingThat("TEST".equalsIgnoreCase(test_env), () -> {
+            System.out.println("TEST 환경에서 테스트");
+        });
+
+        Study study = new Study(-10);
+    }
 
     @Test
     @DisplayName("스터디 만들기")
