@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07194b6a-1fe3-409a-86cc-fee1c946b14b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/TagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +37,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -50,34 +61,7 @@
       <recent name="com.mesung.junit" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.StudyTest.create_new_method">
-    <configuration name="StudyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="prejavatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mesung.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mesung.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Tags (fast )">
     <configuration name="StudyTest.create_new" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prejavatest" />
       <extension name="coverage">
@@ -142,13 +126,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tags (fast )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prejavatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mesung.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mesung.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="fast" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Tags (fast )" />
+      <item itemvalue="JUnit.StudyTest.create_new" />
+      <item itemvalue="JUnit.StudyTest.create_new_method" />
+      <item itemvalue="JUnit.StudyTest.create_new_study" />
+      <item itemvalue="JUnit.StudyTest.create_new_time" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tags (fast )" />
         <item itemvalue="JUnit.StudyTest.create_new_method" />
         <item itemvalue="JUnit.StudyTest.create_new_time" />
         <item itemvalue="JUnit.StudyTest.create_new" />
         <item itemvalue="JUnit.StudyTest.create_new_study" />
-        <item itemvalue="JUnit.StudyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +186,48 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581944547248">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581944547248" />
+    <state x="563" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581942163648">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="563" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1581942163648" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1581944744957">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581944744957" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1581944744955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581944744955" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1581944744954">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581944744954" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1581944744956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581944744956" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1581942905628">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581942905628" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1581943845914">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1581943845914" />
+    <state x="97" y="16" key="new project wizard" timestamp="1581943458269">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="16" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1581943458269" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1581942959800">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581942953878" />
+    <state x="385" y="196" key="search.everywhere.popup/0.23.1440.801@0.23.1440.801" timestamp="1581942959800" />
   </component>
 </project>
