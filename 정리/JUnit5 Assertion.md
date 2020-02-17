@@ -10,7 +10,7 @@ assertEquals(StudyStatus.DRAFT, study.getStatus(), "Study 생성 시 처음 값�
 
 ![image](https://user-images.githubusercontent.com/40616436/71778474-b47df980-2ff1-11ea-9dce-e4d6d1bafd9c.png)
 
-**`assertEquals()`는 (내가 기대하는 값, 실제 나오는 값, 오류시 나타내려는 메시지)**
+**`assertEquals()`는 (내가 기대하는 값, 실제 나오는 값, 오류시 나타내려는 메시지)이다.**
 
 
 
