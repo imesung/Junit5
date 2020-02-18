@@ -23,22 +23,28 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(MockitoExtension.class)
 class StudyServiceTest {
 
+    /*
+    //3. 인스턴스 변수로 만들어보자
     @Mock
     MemberService memberService;
 
     @Mock
     StudyRepository studyRepository;
+    */
 
     @Test
-    void createStudyService() {
-        //Mock을 사용해서 긴 것을 줄여보자
+    //4. 파라미터에 @Mock을 직접 넣자
+    void createStudyService(@Mock MemberService memberService, @Mock StudyRepository studyRepository) {
+        //2. Mock을 사용해서 긴 것을 줄여보자
         //MemberService memberService = mock(MemberService.class);
         //StudyRepository studyRepository = mock(StudyRepository.class);
 
         StudyService studyService = new StudyService(memberService, studyRepository);
         assertNotNull(studyService);
 
-        /*MemberService memberService = new MemberService() {
+        /*
+        //1. default method로 선언
+        MemberService memberService = new MemberService() {
             @Override
             public Optional<Member> findById(Long memberId) throws MemberNotFoundException {
                 return Optional.empty();

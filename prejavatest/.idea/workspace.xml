@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07194b6a-1fe3-409a-86cc-fee1c946b14b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/domain/Study.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/member/InvalidMemberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/member/MemberNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/member/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/study/StudyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/study/StudyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/study/StudyStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mesung/study/StudyServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mesung/junit/StudyStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mesung/junit/StudyStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/prejavatest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/FastTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/FastTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/SlowTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/SlowTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyAggregator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mesung/study/StudyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mesung/study/StudyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/Mock 객체 만들기.md" beforeDir="false" afterPath="$PROJECT_DIR$/../정리/Mock 객체 만들기.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
