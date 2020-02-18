@@ -55,7 +55,7 @@ class StudyTest {
   - 이유는, 한 클래스에 여러 테스트 인스턴스가 만들어지므로 단 하나의 메소드(static 메소드)에만 접근하기 위해 static으로 선언한 것이다.
 
 - ![image](https://user-images.githubusercontent.com/40616436/74743301-7c7dfd80-52a3-11ea-8bde-b12ddbd714b8.png)
-- ![image-20200218230839831](/Users/mesung/Library/Application Support/typora-user-images/image-20200218230839831.png)
+- ![image](https://user-images.githubusercontent.com/40616436/74754510-0edacd00-52b5-11ea-8237-087fe1a24eb3.png)
   - **주소값이 동일하고 value값이 증가된 것을 확인할 수 있다.**
 
 
