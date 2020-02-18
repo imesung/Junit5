@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07194b6a-1fe3-409a-86cc-fee1c946b14b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/FastTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/SlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/domain/Study.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/member/InvalidMemberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/member/MemberNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/study/StudyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/study/StudyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/study/StudyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mesung/study/StudyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/junit/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/junit/Study.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mesung/junit/StudyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mesung/junit/TagTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mesung/junit/Study.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mesung/junit/StudyStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mesung/junit/StudyStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/prejavatest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/FastTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/FastTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/SlowTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/SlowTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyAggregator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest$StudyConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/StudyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mesung/junit/TagTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +33,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,20 +72,38 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.mesung.junit" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mesung.study" />
       <recent name="com.mesung.junit" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mesung.domain" />
+      <recent name="com.mesung.junit" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mesung.junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudyTest.parameterized">
-    <configuration name="StudyTest.create_study (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudyServiceTest.createStudyService">
+    <configuration name="StudyServiceTest.createStudyService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prejavatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mesung.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mesung.study" />
+      <option name="MAIN_CLASS_NAME" value="com.mesung.study.StudyServiceTest" />
+      <option name="METHOD_NAME" value="createStudyService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prejavatest" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +113,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.mesung.junit" />
       <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
-      <option name="METHOD_NAME" value="create_study(org.junit.jupiter.api.RepetitionInfo)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,22 +129,6 @@
       <option name="PACKAGE_NAME" value="com.mesung.junit" />
       <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
       <option name="METHOD_NAME" value="parameterized(com.mesung.junit.Study)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudyTest.parameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="prejavatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mesung.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mesung.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.mesung.junit.StudyTest" />
-      <option name="METHOD_NAME" value="parameterizedTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudyTest.create_study (1)" />
-      <item itemvalue="JUnit.StudyTest.parameterizedTest" />
       <item itemvalue="JUnit.StudyTest.parameterized" />
       <item itemvalue="JUnit.StudyTest.parameterizedTest_study_again" />
       <item itemvalue="JUnit.StudyTest.parameterizedTest_study" />
+      <item itemvalue="JUnit.StudyTest" />
+      <item itemvalue="JUnit.StudyServiceTest.createStudyService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudyServiceTest.createStudyService" />
+        <item itemvalue="JUnit.StudyTest" />
         <item itemvalue="JUnit.StudyTest.parameterized" />
         <item itemvalue="JUnit.StudyTest.parameterizedTest_study" />
         <item itemvalue="JUnit.StudyTest.parameterizedTest_study_again" />
-        <item itemvalue="JUnit.StudyTest.parameterizedTest" />
-        <item itemvalue="JUnit.StudyTest.create_study (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,22 +222,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="563" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1581942163648" />
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1581955310668">
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1582041616409">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581955310668" />
-    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1581955310667">
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582041616409" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1582041616408">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581955310667" />
-    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1581955310666">
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582041616408" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1582041616407">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581955310666" />
-    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1581955310667">
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582041616407" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1582041616408">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581955310667" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582041616408" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1581951310847">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -232,10 +246,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581945527142" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1581943845914">
+    <state x="499" y="173" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582040912628">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1581943845914" />
+    <state x="499" y="173" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1582040912628" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1582040234205">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1582040234205" />
     <state x="97" y="16" key="new project wizard" timestamp="1581943458269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

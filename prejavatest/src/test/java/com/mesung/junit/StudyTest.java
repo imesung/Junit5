@@ -25,8 +25,38 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class StudyTest {
 
+    //테스트 인스턴스
+    @BeforeAll
+    void beforeAll() {
+        System.out.println("before all");
+    }
+
+    @AfterAll
+    void afterAll() {
+        System.out.println("after all");
+    }
+
+    int value = 1;
+
+    @Test
+    @DisplayName("스터디 만들기 테스트 인스턴")
+    void testInstance() {
+        System.out.println(this);
+        System.out.println(value++);
+    }
+
+    @Test
+    @DisplayName("스터디 만들기 테스트 인스턴스 ")
+    void testInstance2() {
+        System.out.println(this);
+        System.out.println(value++);
+    }
+
+
+    //테스트 반복하기
     @DisplayName("스터디 만들기")
     @ParameterizedTest(name = "{index} {displayName} message={0}")
     @CsvSource({"10, 'java study'", "20, spring"})
@@ -212,16 +242,6 @@ class StudyTest {
         System.out.println("create1");
     }
 
-    @BeforeAll
-    static void beforeAll() {
-        System.out.println("before all");
-    }
-
-    @AfterAll
-    static void afterAll() {
-        System.out.println("after all");
-    }
-
     @BeforeEach
     void beforeEach(){
         System.out.println("before each");
@@ -231,5 +251,4 @@ class StudyTest {
     void afterEach(){
         System.out.println("after each");
     }
-
 }
